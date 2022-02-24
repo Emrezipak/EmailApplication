@@ -24,7 +24,7 @@ public class EmailSenderService {
         helper.setTo(email);
         helper.setSubject("change password");
         helper.setFrom("denemespringemail@gmail.com");
-        helper.setText( "<html><body><p>Sifrenizi yenilemek icin <a href='https://www.amazon.com.tr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882'>tiklayiniz</p></body></html>", true);
+        helper.setText( "<html><body><p>Sifrenizi yenilemek icin <a href='https://www.google.com.tr/'>tiklayiniz</p></body></html>", true);
         javaMailSender.send(message);
 
     }
